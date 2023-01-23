@@ -3,7 +3,7 @@ def move_zeroes(nums)
  j = 1
 
   while j < nums.size 
-    if nums[i].zero? && nums[j] != 0
+    if nums[i].zero? 
       temp = nums[j]
       nums[j] = nums[i]
       nums[i] = temp
