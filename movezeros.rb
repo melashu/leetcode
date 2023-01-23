@@ -9,7 +9,7 @@ def move_zeroes(nums)
       nums[i] = temp
       i += 1
       j += 1
-    elsif nums[i]!=0 && nums[j]!= 0 
+    elsif nums[i]!=0 
       i += 1
       j += 1
     elsif nums[i]!=0 && nums[j]=0
